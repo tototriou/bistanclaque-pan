@@ -1,0 +1,48 @@
+.wrapper-home-page {
+    background-color: #F2EDDB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    .titre p {
+        font-size: xx-large;
+    }
+
+    .wrapper-logo-central {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        height: 40%;
+        margin: 10px;
+    }
+
+    .theatre-texte p {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        color: #F2EDDB;
+        font-family: 'Catamaran';
+        font-weight: bold;
+        letter-spacing: 5px;
+        padding: 0 5em 0 5em;
+        line-height: normal;
+    }
+
+    .wrapper-navbar {
+        display: flex;
+        justify-content: center;
+        border-top: 0.5px solid lightgray;
+        border-bottom: 0.5px solid lightgray;
+        padding: 0 10px 0 10px;
+        color: grey;
+
+        .nav-link {
+            color: rgb(73, 73, 73);
+        }
+
+    }
+}

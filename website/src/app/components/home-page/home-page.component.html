@@ -1,0 +1,29 @@
+<div class="wrapper-home-page">
+    <div class="titre">
+        <p>BISTANCLAQUE-PAN</p>
+    </div>
+    <div class="wrapper-logo-central">
+        <img src="../../../assets/images/home-page-image/logo-home-page.png" alt="image centrale logo théâtre">
+    </div>
+    <div class="theatre-texte">
+        <p>THEATRE</p>
+    </div>
+    <div class="wrapper-navbar">
+        <ul ngbNav #nav="ngbNav" class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#1">Compagnie</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#2">Spectacles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#3">Contact </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#4">Agenda</a>
+            </li>
+        </ul>
+
+        <div [ngbNavOutlet]="nav" class="mt-2"></div>
+    </div>
+</div>
