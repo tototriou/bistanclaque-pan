@@ -1,1 +1,8 @@
-<p>agenda works!</p>
+<div class="wrapper-agenda">
+    <div *ngFor="let annee of agenda">
+        <h1>{{annee.annee}}</h1>
+        <div *ngFor="let spectacle of annee.spectacles">
+            <p>{{spectacle.date}}</p>
+        </div>
+    </div>
+</div>

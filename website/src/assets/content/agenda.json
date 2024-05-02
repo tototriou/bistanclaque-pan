@@ -1,0 +1,44 @@
+[
+    {
+        "annee": "2024",
+        "spectacles": [
+            {
+                "date": "10 Mars 2024",
+                "lieu": "place Louise Bourgeois, 69000 Lyon"
+            },
+            {
+                "date": "11 Mars 2024",
+                "lieu": "place Louise Bourgeois, 69000 Lyon"
+            },
+            {
+                "date": "12 Mars 2024",
+                "lieu": "place Louise Bourgeois, 69000 Lyon"
+            },
+            {
+                "date": "13 Mars 2024",
+                "lieu": "place Louise Bourgeois, 69000 Lyon"
+            }
+        ]
+    },
+    {
+        "annee": "2023",
+        "spectacles": [
+            {
+                "date": "14 Mars 2024",
+                "lieu": "place Louise Bourgeois, 69000 Lyon"
+            },
+            {
+                "date": "15 Mars 2024",
+                "lieu": "place Louise Bourgeois, 69000 Lyon"
+            },
+            {
+                "date": "16 Mars 2024",
+                "lieu": "place Louise Bourgeois, 69000 Lyon"
+            },
+            {
+                "date": "17 Mars 2024",
+                "lieu": "place Louise Bourgeois, 69000 Lyon"
+            }
+        ]
+    }
+]
