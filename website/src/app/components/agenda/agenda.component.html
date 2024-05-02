@@ -1,8 +1,16 @@
 <div class="wrapper-agenda">
-    <div *ngFor="let annee of agenda">
-        <h1>{{annee.annee}}</h1>
-        <div *ngFor="let spectacle of annee.spectacles">
-            <p>{{spectacle.date}}</p>
+    <div class="title">
+        <h1>Agenda</h1>
+    </div>
+    <div class="wrapper-content-agenda">
+        <div *ngFor="let annee of agenda" class="section">
+            <h2>{{annee.annee}}</h2>
+            <div *ngFor="let spectacle of annee.spectacles" class="ligne">
+                <div class="point"></div>
+                <p>{{spectacle.lieu}}</p>
+                <p><em> {{spectacle.date}}</em></p>
+                <img [src]="spectacle.photo_url" alt="">
+            </div>
         </div>
     </div>
 </div>
