@@ -1,0 +1,28 @@
+<div class="wrapper-compagnie">
+    <section class="text-center mx-5">
+        <h1>La Compagnie</h1>
+        <div class="compagnie-description">
+            <p>La Compagnie Bistanclaque-pan est née en 2024 par Romain Triouleyre et Sidonie Vilas Boas.
+
+                Rencontrés au conservatoire de Lyon en 2021, et après s’être formé de leurs côtés, ils se retrouvent
+                pour
+                créer Bistanclaque-Pan dans leur ville de rencontre.
+
+                Elle a pour fil rouge la recherche clownesque, et burlesque, en passant par de l’écriture de plateau et
+                de
+                l’écriture personnelle. Elle tend à créer pour le théâtre de rue.</p>
+        </div>
+    </section>
+    <h1>L'équipe Artistique</h1>
+    <div class="wrapper-card">
+        <div *ngFor="let membre of compagnie; let i=index" class="card">
+            <div class="image">
+                <img [src]="membre.photo_url" alt="photo membre">
+            </div>
+            <div class="description">
+                <p>{{membre.prenom}} {{membre.nom}}</p>
+                <app-modal-presentation-membres [members]="compagnie" [index]="i"></app-modal-presentation-membres>
+            </div>
+        </div>
+    </div>
+</div>
