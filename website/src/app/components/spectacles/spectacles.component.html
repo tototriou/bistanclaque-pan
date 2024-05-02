@@ -1,1 +1,11 @@
-<p>spectacles works!</p>
+<div class="wrapper-spectacle">
+    <h1>Les spectacles</h1>
+    <div class="wrapper-card">
+        <div *ngFor="let spectacle of spectacles; let i=index" class="card">
+            <div *ngFor="let img of spectacle.photos" class="image">
+                <img [src]="img" alt="photo spectacle" class="image-spectacles">
+                <p>salkut salut</p>
+            </div>
+        </div>
+    </div>
+</div>
