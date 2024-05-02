@@ -5,6 +5,8 @@
     flex-direction: column;
     background-color: var(--bg-color-primary);
     min-height: 100vh;
+    font-size: large;
+    font-weight: 600;
 
     .mail {
         flex-direction: column !important;
@@ -18,7 +20,7 @@
         align-items: center;
         justify-content: center !important;
         #tel-number{
-            margin-bottom: 0;
+            margin-bottom: 5px;
         }
         #icon-tel{
             width: 32px;
@@ -51,7 +53,7 @@
 
     .footer {
         display: flex;
-        position: fixed;
+        position: absolute;
         bottom: 0;
         font-weight: 100;
         font-size: small;
