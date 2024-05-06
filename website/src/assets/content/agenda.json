@@ -1,46 +1,18 @@
 [
-    {
-    "annee": "2025",
-    "spectacles": [
-        {
-            "date": "14 Mars 2025",
-            "lieu": "place Louise Bourgeois, 69000 Lyon"
-        },
-        {
-            "date": "15 Mars 2024",
-            "lieu": "place Louise Bourgeois, 69000 Lyon"
-        },
-        {
-            "date": "16 Mars 2024",
-            "lieu": "place Louise Bourgeois, 69000 Lyon"
-        },
-        {
-            "date": "17 Mars 2024",
-            "lieu": "place Louise Bourgeois, 69000 Lyon"
-        }
-    ]
-    },
+
     {
         "annee": "2024",
         "spectacles": [
             {
                 "date": "10 Mars 2024",
-                "lieu": "place Louise Bourgeois, 69000 Lyon",
-                "photo_url": "assets/images/compagnie/images/logo-home-page.png"
+                "lieu": "place Louise Bourgeoise - Paris - FESTIVAL MEUF MARS",
+                "photo_url": "assets/images/compagnie/images/photo-chimères-meuf-mars.jpeg"
 
             },
             {
-                "date": "11 Mars 2024",
-                "lieu": "place Louise Bourgeois, 69000 Lyon",
-                "photo_url": "assets/images/compagnie/images/logo-home-page.png"
-            },
-            {
-                "date": "12 Mars 2024",
-                "lieu": "place Louise Bourgeois, 69000 Lyon"
-            },
-            {
-                "date": "13 Mars 2024",
-                "lieu": "place Louise Bourgeois, 69000 Lyon"
+                "date": "Du 14 au 17 Août 2024",
+                "lieu": "Festival International de Théâtre de rue - AURILLAC",
+                "photo_url": "assets/images/compagnie/images/photo-chimères-meuf-mars.jpeg"
             }
         ]
     },
@@ -48,20 +20,8 @@
         "annee": "2023",
         "spectacles": [
             {
-                "date": "14 Mars 2024",
-                "lieu": "place Louise Bourgeois, 69000 Lyon"
-            },
-            {
-                "date": "15 Mars 2024",
-                "lieu": "place Louise Bourgeois, 69000 Lyon"
-            },
-            {
-                "date": "16 Mars 2024",
-                "lieu": "place Louise Bourgeois, 69000 Lyon"
-            },
-            {
-                "date": "17 Mars 2024",
-                "lieu": "place Louise Bourgeois, 69000 Lyon"
+                "date": "4 et 5 Novembre 2023",
+                "lieu": "CNSAD - Festival des cartes blanches"
             }
         ]
     }
