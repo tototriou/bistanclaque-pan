@@ -20,7 +20,8 @@
                 <img [src]="membre.photo_url" alt="photo membre">
             </div>
             <div class="description">
-                <p>{{membre.prenom}} {{membre.nom}}</p>
+                <p class="nom-prenom">{{membre.prenom}} {{membre.nom}}</p>
+                <p class="role">{{membre.role}}</p>
                 <app-modal-presentation-membres [members]="compagnie" [index]="i"></app-modal-presentation-membres>
             </div>
         </div>
