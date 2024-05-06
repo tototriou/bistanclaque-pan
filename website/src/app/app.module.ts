@@ -10,6 +10,7 @@ import { SpectaclesComponent } from './components/spectacles/spectacles.componen
 import { AgendaComponent } from './components/agenda/agenda.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ModalPresentationMembresComponent } from './components/modal-presentation-membres/modal-presentation-membres.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -20,12 +21,14 @@ import { ModalPresentationMembresComponent } from './components/modal-presentati
     SpectaclesComponent,
     AgendaComponent,
     ContactComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    ModalPresentationMembresComponent
+    ModalPresentationMembresComponent,
+    CarouselComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
