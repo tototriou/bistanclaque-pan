@@ -2,10 +2,17 @@
     <h1>Les spectacles</h1>
     <div class="wrapper-card">
         <div *ngFor="let spectacle of spectacles; let i=index" class="card">
+            <h4 class="text-center">{{spectacle.titre}}</h4>
+            <p *ngFor="let context of spectacle.creation" class="text-center">{{context}}</p>
+            <p>{{spectacle.cadre}}</p>
+            <p>{{spectacle.resume}}</p>
             <div *ngFor="let img of spectacle.photos" class="image">
-                <img [src]="img" alt="photo spectacle" class="image-spectacles">
-                <p>salkut salut</p>
+                <div class="wrapper-image">
+                    <img [src]="img" alt="photo spectacle">
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<app-footer></app-footer>

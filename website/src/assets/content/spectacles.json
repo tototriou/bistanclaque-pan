@@ -3,48 +3,48 @@
         {
             "titre": "CHIMERES",
             "cadre": "Création dans le cadre des cartes blanches au CNSAD en novembre 2023",
-            "creation":[
-                "Mise en scène : Sidonie VIlas Boas", 
+            "creation": [
+                "Mise en scène : Sidonie VIlas Boas",
                 "Assistanat à la mise en scène – Romain Triouleyre",
                 "Jeu - Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis[1]Calixte, Clara Pacini, Lucile Rose"
             ],
-            "resume": "assets/images/compagnie/images/logo-home-page.png",
-            "photos":[
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png"
+            "resume": "explication du spectacle",
+            "photos": [
+                "assets/images/spectacles/logo-home-page.png",
+                "assets/images/spectacles/logo-home-page.png",
+                "assets/images/spectacles/logo-home-page.png"
             ],
             "biographie": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
         },
         {
             "titre": "CHIMERES 2",
-            "cadre": "Création dans le cadre des cartes blanches au CNSAD en novembre 2023",
-            "creation":[
-                "Mise en scène : Sidonie VIlas Boas", 
+            "cadre": "",
+            "creation": [
+                "Mise en scène : Sidonie VIlas Boas",
                 "Assistanat à la mise en scène – Romain Triouleyre",
                 "Jeu - Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis[1]Calixte, Clara Pacini, Lucile Rose"
             ],
-            "resume": "assets/images/compagnie/images/logo-home-page.png",
-            "photos":[
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png"
+            "resume": "explication du spectacle",
+            "photos": [
+                "assets/images/spectacles/logo-home-page.png",
+                "assets/images/spectacles/logo-home-page.png",
+                "assets/images/spectacles/logo-home-page.png"
             ],
             "biographie": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
         },
         {
             "titre": "CHIMERES 3",
             "cadre": "Création dans le cadre des cartes blanches au CNSAD en novembre 2023",
-            "creation":[
-                "Mise en scène : Sidonie VIlas Boas", 
+            "creation": [
+                "Mise en scène : Sidonie VIlas Boas",
                 "Assistanat à la mise en scène – Romain Triouleyre",
                 "Jeu - Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis[1]Calixte, Clara Pacini, Lucile Rose"
             ],
-            "resume": "assets/images/compagnie/images/logo-home-page.png",
-            "photos":[
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png"
+            "resume": "explication du spectacle",
+            "photos": [
+                "assets/images/spectacles/logo-home-page.png",
+                "assets/images/spectacles/logo-home-page.png",
+                "assets/images/spectacles/logo-home-page.png"
             ],
             "biographie": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
         }

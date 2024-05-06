@@ -13,16 +13,19 @@
                 l’écriture personnelle. Elle tend à créer pour le théâtre de rue.</p>
         </div>
     </section>
-    <h1>L'équipe Artistique</h1>
-    <div class="wrapper-card">
-        <div *ngFor="let membre of compagnie; let i=index" class="card">
-            <div class="image">
-                <img [src]="membre.photo_url" alt="photo membre">
-            </div>
-            <div class="description">
-                <p>{{membre.prenom}} {{membre.nom}}</p>
-                <app-modal-presentation-membres [members]="compagnie" [index]="i"></app-modal-presentation-membres>
+    <section class="text-center mx-5">
+        <h1>L'équipe Artistique</h1>
+        <div class="wrapper-card">
+            <div *ngFor="let membre of compagnie; let i=index" class="card">
+                <div class="image">
+                    <img [src]="membre.photo_url" alt="photo membre">
+                </div>
+                <div class="description">
+                    <p>{{membre.prenom}} {{membre.nom}}</p>
+                    <app-modal-presentation-membres [members]="compagnie" [index]="i"></app-modal-presentation-membres>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 </div>
+<app-footer></app-footer>
