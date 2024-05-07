@@ -1,11 +1,16 @@
 <ng-template #content let-modal>
-    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    <div class="wrapper">
+        <div class="fond">
+            <img [src]="member.photo_url" alt="">
+        </div>
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
 
-    <div class="modal-body">
-        <h2>{{member.prenom}} {{member.nom}}</h2>
-        <p>{{member.biographie}}</p>
+        <div class="modal-body">
+            <h2>{{member.prenom}} {{member.nom}}</h2>
+            <p>{{member.biographie}}</p>
+        </div>
     </div>
 </ng-template>
 
-<button class="btn" (click)="openVerticallyCentered(content)">
+<button class=" btn" (click)="openVerticallyCentered(content)">
 </button>
