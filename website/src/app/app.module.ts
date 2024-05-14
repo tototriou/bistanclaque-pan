@@ -21,7 +21,6 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     SpectaclesComponent,
     AgendaComponent,
     ContactComponent,
-
   ],
   imports: [
     BrowserModule,

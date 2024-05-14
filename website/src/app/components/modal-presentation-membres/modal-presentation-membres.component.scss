@@ -44,5 +44,21 @@
 
 .modal-content {
     background-color: var(--bg-color-primary);
+    text-align: justify;
 
+    .biographie {
+        width: 90%;
+    }
+
+    a {
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+    }
 }
+
+.role {
+    color: rgb(255, 180, 68);
+}
+
+.en-tete-modal {}
