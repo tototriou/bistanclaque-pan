@@ -15,12 +15,19 @@
             <p class="biographie">{{member.biographie}}</p>
             <div class="trait70percent"></div>
 
-            <a [href]="member.cv_url" target="_blank">
-                <p>
-                    mon cv
-                </p>
-                <img src="./../../../assets/icon/download.svg" alt="icon download">
-            </a>
+            <div class="fin-modal">
+                <ul>
+                    <h6>Spectacles :</h6>
+                    <li *ngFor="let spectcale of spectacles">{{spectcale}}</li>
+                </ul>
+                <div class="vertical-bar"></div>
+                <a [href]="member.cv_url" target="_blank">
+                    <p>
+                        mon cv
+                    </p>
+                    <img src="./../../../assets/icon/download.svg" alt="icon download">
+                </a>
+            </div>
         </div>
     </div>
 </ng-template>

@@ -60,3 +60,33 @@
 .role {
     color: rgb(255, 180, 68);
 }
+
+.fin-modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .vertical-bar {
+        width: 0.5px;
+        background-color: lightgray;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}

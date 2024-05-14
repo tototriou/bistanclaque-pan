@@ -1,6 +1,6 @@
 import { Component, inject, Input, TemplateRef, ViewEncapsulation } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { NgStyle } from '@angular/common';
+import { NgFor, NgStyle } from '@angular/common';
 
 @Component({
   selector: 'app-modal-presentation-membres',
@@ -8,7 +8,7 @@ import { NgStyle } from '@angular/common';
   templateUrl: './modal-presentation-membres.component.html',
   styleUrl: './modal-presentation-membres.component.scss',
   encapsulation: ViewEncapsulation.None,
-  imports: [NgStyle],
+  imports: [NgStyle, NgFor],
 
 })
 export class ModalPresentationMembresComponent {
@@ -18,9 +18,11 @@ export class ModalPresentationMembresComponent {
   @Input() index: number = 0
 
   public member: any
+  public spectacles: any[] = []
 
   ngOnInit() {
     this.member = this.members[this.index]
+    this.spectacles = this.member.spectacles
   }
 
   openVerticallyCentered(content: TemplateRef<any>) {
