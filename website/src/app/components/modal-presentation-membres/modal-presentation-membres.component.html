@@ -19,6 +19,11 @@
                 <ul>
                     <h6>Spectacles :</h6>
                     <li *ngFor="let spectcale of spectacles">{{spectcale}}</li>
+                    <li>
+                        <a href="/spectacles">
+                            <img src="./../../../assets/icon/arrow-right-circle.svg" alt="fleche vers la droit">
+                        </a>
+                    </li>
                 </ul>
                 <div class="vertical-bar"></div>
                 <a [href]="member.cv_url" target="_blank">
