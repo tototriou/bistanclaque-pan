@@ -9,10 +9,29 @@
 
 }
 
+@font-face {
+    font-family: 'Sue_Ellen_Francisco';
+    src: url('./assets/fonts/Sue_Ellen_Francisco/SueEllenFrancisco-Regular.ttf') format('truetype');
+
+}
+
 * {
     --bg-color-primary: #F2EDDB
 }
 
 section {
     margin-top: 25px;
+}
+
+h1,
+h2 {
+    font-family: 'Sue_Ellen_Francisco';
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2.5rem;
 }

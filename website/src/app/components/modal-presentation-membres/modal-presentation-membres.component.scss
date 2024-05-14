@@ -28,19 +28,17 @@
 
 }
 
-.fond {
+.photo_popup {
     display: flex;
-
-    position: absolute;
-    opacity: 0.5;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
+    width: auto;
+    margin: 10px 0;
 
     img {
-        display: flex;
-        width: fit-content;
+        height: 30vh;
+
+        width: auto;
     }
+
 
 }
 
