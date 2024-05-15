@@ -4,15 +4,17 @@
         "annee": "2024",
         "spectacles": [
             {
-                "date": "10 Mars 2024",
-                "lieu": "place Louise Bourgeoise - Paris - FESTIVAL MEUF MARS",
-                "photo_url": "assets/images/compagnie/images/photo-chimères-meuf-mars.jpeg"
+
+                "date": "14 au 17 Août",
+                "lieu": "FESTIVAL D'AURILLAC",
+                "photo_url": "assets/images/compagnie/images/affiche-aurillac2.jpeg"
 
             },
             {
-                "date": "Du 14 au 17 Août 2024",
-                "lieu": "Festival International de Théâtre de rue - AURILLAC",
-                "photo_url": "assets/images/compagnie/images/affiche-aurillac2.jpeg"
+                "date": "10 Mars",
+                "lieu": "FESTIVAL MEUF MARS - paris",
+                "photo_url": "assets/images/compagnie/images/photo-montmartre.png"
+               
             }
         ]
     },
@@ -20,8 +22,9 @@
         "annee": "2023",
         "spectacles": [
             {
-                "date": "4 et 5 Novembre 2023",
-                "lieu": "CNSAD - Festival des cartes blanches"
+                "date": "4 et 5 Novembre",
+                "lieu": "CNSAD - paris",
+                "photo_url":"assets/images/compagnie/images/photo-cnsad.jpeg"
             }
         ]
     }
