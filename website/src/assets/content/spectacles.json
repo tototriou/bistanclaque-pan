@@ -2,34 +2,71 @@
     "spectacles": [
         {
             "titre": "CHIMERES",
-            "cadre": "Création dans le cadre des cartes blanches au CNSAD en novembre 2023",
+            "cadre": [
+                "Création novembre 2023",
+                "-prdocuction-",
+                "carte blanche au CNSAD",
+                "-soutien-",
+                "Festival du MEUF MARS"
+            ],
             "creation": [
                 "Mise en scène : Sidonie VIlas Boas",
                 "Assistanat à la mise en scène – Romain Triouleyre",
                 "Jeu - Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis[1]Calixte, Clara Pacini, Lucile Rose"
             ],
-            "resume": "assets/images/compagnie/images/logo-home-page.png",
+            "resume": "Sept femmes comme projetées dans une époque d’autrefois, qui se fardent et s’habillent de leurs blouses de travail pour aller à l’usine. La patronne donne le tempo, le tricot démarre et le chant suit. Les accouchements se succèdent. Ici, on fabrique des bébés à la chaîne et on joue à la maman.",
             "photos": [
-                "assets/images/spectacles/chimere/image00001.jpeg",
-                "assets/images/spectacles/chimere/FOND.jpeg",
-                "assets/images/spectacles/chimere/IMG_1497.png",
-                "assets/images/spectacles/chimere/image00014.jpeg",
-                "assets/images/spectacles/chimere/image00014.jpeg",
-                "assets/images/spectacles/chimere/image00014.jpeg",
-                "assets/images/spectacles/chimere/image00014.jpeg",
-                "assets/images/spectacles/chimere/image00014.jpeg",
-                "assets/images/spectacles/chimere/image00014.jpeg"
+                "assets/images/compagnie/images/photo-chimères1.JPG",
+                "assets/images/compagnie/images/photo-chimères2.JPG",
+                "assets/images/compagnie/images/photo-chimères3.JPG",
+                "assets/images/compagnie/images/photo-chimères4.JPG",
+                "assets/images/compagnie/images/photo-chimères5.JPG",
+                "assets/images/compagnie/images/photo-chimères6.JPG",
+                "assets/images/compagnie/images/photo-chimères7.JPG",
+                "assets/images/compagnie/images/photo-chimères8.JPG",
+                "assets/images/compagnie/images/photo-chimères9.JPG"
             ],
             "photo_principale": "assets/images/spectacles/chimere/image00001.jpeg",
             "biographie": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
         },
         {
-            "titre": "CHIMERES 2",
-            "cadre": "Création dans le cadre des cartes blanches au CNSAD en novembre 2023",
+            "titre": "SOL()",
+            "cadre": [
+                "création 2023",
+                "-Production-",
+                "Conservatoire de Lyon",
+                "-soutien-",
+                "Théâtre de l'Elysée - scène émergente de Lyon",
+                "L'assemblée, fabrique artistique - Théâtre de Lyon"
+            ],
             "creation": [
-                "Mise en scène : Sidonie VIlas Boas",
-                "Assistanat à la mise en scène – Romain Triouleyre",
-                "Jeu - Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis[1]Calixte, Clara Pacini, Lucile Rose"
+                "Texte et Mise en scène : Romain Triouleyre",
+                "Musique - Victor Breda",
+                "Jeu - Théo Thierry, Romain Triouleyre, Sahra Spaggiari"
+            ],
+            "resume": "assets/images/compagnie/images/photo-sol().jpg",
+            "photos": [
+                "assets/images/compagnie/images/logo-home-page.png",
+                "assets/images/compagnie/images/logo-home-page.png",
+                "assets/images/compagnie/images/logo-home-page.png"
+            ],
+            "photo_principale": "assets/images/compagnie/images/photo-sol().jpg",
+            "biographie": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
+        },
+        {
+            "titre": "JULIET",
+            "cadre": [
+                "Création 2024",
+                "-production-",
+                "Conservatoire de Lyon",
+                "-soutien-",
+                "Théâtre de l'Elysée - scène émergente Lyon"
+            ],
+            "creation": [
+                "Mise en scène : Collective",
+                "Jeu - Felix Fournier, Piero Hernandez, Ambroise Ract Madoux, Romain Triouleyre, Adrien Vignes, Wiktor Vallet",
+                "Musique - Hugo Wurbel",
+                "Masques - Rachel Leca"
             ],
             "resume": "assets/images/compagnie/images/logo-home-page.png",
             "photos": [
@@ -37,24 +74,7 @@
                 "assets/images/compagnie/images/logo-home-page.png",
                 "assets/images/compagnie/images/logo-home-page.png"
             ],
-            "photo_principale": "assets/images/spectacles/chimere/image00001.jpeg",
-            "biographie": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
-        },
-        {
-            "titre": "CHIMERES 3",
-            "cadre": "Création dans le cadre des cartes blanches au CNSAD en novembre 2023",
-            "creation": [
-                "Mise en scène : Sidonie VIlas Boas",
-                "Assistanat à la mise en scène – Romain Triouleyre",
-                "Jeu - Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis[1]Calixte, Clara Pacini, Lucile Rose"
-            ],
-            "resume": "assets/images/compagnie/images/logo-home-page.png",
-            "photos": [
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png"
-            ],
-            "photo_principale": "assets/images/spectacles/chimere/image00001.jpeg",
+            "photo_principale": "assets/images/compagnie/images/juliet-photo.jpg",
             "biographie": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
         }
     ]
