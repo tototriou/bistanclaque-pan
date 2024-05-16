@@ -17,7 +17,7 @@
             <div *ngFor="let spectacle of annee.spectacles" class="ligne">
                 <div class="point"></div>
                 <p>{{spectacle.lieu}}</p>
-                <p><em> {{spectacle.date}}</em></p>
+                <p class="date"><em> {{spectacle.date}}</em></p>
                 <img [src]="spectacle.photo_url" alt="">
             </div>
         </div>
