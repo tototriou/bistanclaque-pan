@@ -18,7 +18,7 @@
             "prenom": "Sidonie",
             "nom": "Vilas Boas",
             "role": "co-directrice artistique",
-            "photo_url": "assets/images/compagnie/images/Sido.png",
+            "photo_url": "assets/images/compagnie/images/pp-sido.png",
             "spectacles": [
                 "CHIMERES - 2023",
                 "metteuse en scène"
@@ -30,7 +30,7 @@
             "prenom": "Juliette",
             "nom": "Cahon",
             "role": "comédienne",
-            "photo_url": "assets/images/compagnie/images/Juliette.png",
+            "photo_url": "assets/images/compagnie/images/pp-juliette.png",
             "spectacles": [
                 "CHIMERES - 2023",
                 "comédienne"
@@ -42,7 +42,7 @@
             "prenom": "Pauline",
             "nom": "Bélier",
             "role": "comédienne",
-            "photo_url": "assets/images/compagnie/images/Pauline.png",
+            "photo_url": "assets/images/compagnie/images/pp-pauline.png",
             "spectacles": [
                 "CHIMERES - 2023",
                 "comédienne"
@@ -54,7 +54,7 @@
             "prenom": "Lucie",
             "nom": "Courbet",
             "role": "comédienne",
-            "photo_url": "assets/images/compagnie/images/Lucie.png",
+            "photo_url": "assets/images/compagnie/images/pp-lucie.png",
             "spectacles": [
                 "CHIMERES - 2023",
                 "comédienne"
@@ -66,7 +66,7 @@
             "prenom": "Emilie",
             "nom": "Kang",
             "role": "comédienne",
-            "photo_url": "assets/images/compagnie/images/Emilie.png",
+            "photo_url": "assets/images/compagnie/images/pp-emilie.png",
             "spectacles": [
                 "CHIMERES - 2023",
                 "comédienne"
@@ -78,7 +78,7 @@
             "prenom": "Jeanne",
             "nom": "Louis-Calixte",
             "role": "comédienne",
-            "photo_url": "assets/images/compagnie/images/Jeanne.png",
+            "photo_url": "assets/images/compagnie/images/pp-jeanne.png",
             "spectacles": [
                 "CHIMERES - 2023",
                 "comédienne"
@@ -102,7 +102,7 @@
             "prenom": "Lucile",
             "nom": "Rose",
             "role": "comédienne",
-            "photo_url": "assets/images/compagnie/images/Lucile.png",
+            "photo_url": "assets/images/compagnie/images/pp-lucile.png",
             "spectacles": [
                 "CHIMERES - 2023",
                 "comédienne"
