@@ -1,0 +1,21 @@
+<ng-template #content let-modal>
+    <div>
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+        <div class="modal-body">
+            <h1 class="text-center">
+                {{spectacle.titre}}
+            </h1>
+            <p *ngFor=" let context of creation" class="text-center">{{context}}</p>
+            <p>{{spectacle.cadre}}</p>
+            <p>{{spectacle.resume}}</p>
+            <div *ngFor="let img of photos" class="image">
+                <div class="wrapper-image">
+                    <img [src]="img" alt="photo spectacle">
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>
+<button class="btn btn-lg btn-outline-primary" (click)=" openVerticallyCentered(content)">
+    ->
+</button>

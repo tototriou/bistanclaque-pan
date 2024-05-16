@@ -11,6 +11,8 @@ import { AgendaComponent } from './components/agenda/agenda.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ModalPresentationMembresComponent } from './components/modal-presentation-membres/modal-presentation-membres.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { ModalPresentationSpectaclesComponent } from './components/modal-presentation-spectacles/modal-presentation-spectacles.component';
+import { ContactThomasComponent } from './components/contact-thomas/contact-thomas.component';
 
 @NgModule({
   declarations: [
@@ -21,13 +23,16 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     SpectaclesComponent,
     AgendaComponent,
     ContactComponent,
+    ContactThomasComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     ModalPresentationMembresComponent,
-    CarouselComponent
+    CarouselComponent,
+    ModalPresentationSpectaclesComponent,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
