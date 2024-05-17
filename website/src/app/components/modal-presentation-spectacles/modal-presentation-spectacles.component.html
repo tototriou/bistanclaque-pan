@@ -8,13 +8,14 @@
             <p id="sous-titre"><em>{{spectacle.sous_titre}}</em></p>
             <div class="trait70percent"></div>
             <div *ngFor="let ca of cadre;let i=index" class="context text-center">
-                <p *ngIf="i%2==0">{{ca}}</p>
+                <h6 *ngIf="i%2==0">{{ca}}</h6>
                 <em *ngIf="i%2==1">{{ca}}</em>
             </div>
             <div class="trait70percent"></div>
-            <p *ngFor=" let context of creation; let i=index" class="text-center">
-                {{context}}
-            </p>
+            <div *ngFor=" let context of creation; let i=index" class="context text-center">
+                <h6 *ngIf="i%2==0">{{context}}</h6>
+                <em *ngIf="i%2==1">{{context}}</em>
+            </div>
             <div class="trait70percent"></div>
             <p>{{spectacle.resume}}</p>
             <div *ngFor="let img of photos" class="image">
