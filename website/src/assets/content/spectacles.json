@@ -12,10 +12,12 @@
             "creation": [
                 "Mise en scène",
                 "Sidonie VIlas Boas",
+
+
                 "Assistanat à la mise en scène",
                 "Romain Triouleyre",
                 "Jeu",
-                "Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis[1]Calixte, Clara Pacini, Lucile Rose"
+                "Pauline Bélier, Juliette Cahon, Lucie Courbet, Emilie Kang, Jeanne Louis-Calixte, Clara Pacini, Lucile Rose"
             ],
             "resume": "Sept femmes comme projetées dans une époque d’autrefois, qui se fardent et s’habillent de leurs blouses de travail pour aller à l’usine. La patronne donne le tempo, le tricot démarre et le chant suit. Les accouchements se succèdent. Ici, on fabrique des bébés à la chaîne et on joue à la maman.",
             "photos": [
@@ -29,7 +31,7 @@
                 "assets/images/compagnie/images/photo-chimères8.JPG",
                 "assets/images/compagnie/images/photo-chimères9.JPG"
             ],
-            "photo_principale": "assets/images/spectacles/chimere/image00001.jpeg",
+            "photo_principale": "assets/images/spectacles/chimere/chimeres-affiche.png",
             "biographie": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
         },
         {
@@ -53,7 +55,7 @@
                 "assets/images/compagnie/images/logo-home-page.png",
                 "assets/images/compagnie/images/logo-home-page.png"
             ],
-            "photo_principale": "assets/images/compagnie/images/photo-sol().jpg",
+            "photo_principale": "assets/images/compagnie/images/affiche-sol().png",
             "biographie": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
         },
         {
