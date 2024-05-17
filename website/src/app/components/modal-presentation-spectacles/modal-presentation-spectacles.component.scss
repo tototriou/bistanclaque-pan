@@ -25,3 +25,53 @@
         height: auto;
     }
 }
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+.modal-content {
+    background-color: var(--bg-color-primary);
+}
+
+#wrapper-btn {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    #fleche {
+        display: flex;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-200%);
+    }
+
+    #agenda {
+        display: flex;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-15%);
+    }
+}
+
+#wrapper-btn:hover #fleche,
+#wrapper-btn:hover #agenda {
+    transform: translateX(150%);
+    transition: all ease-in-out 0.3s;
+}
+
+#wrapper-btn:not(:hover) #fleche {
+    transform: translateX(-200%);
+    transition: all ease-in-out 0.3s;
+}
+
+
+#wrapper-btn:not(:hover) #agenda {
+    transform: translateX(-12%);
+    transition: all ease-in-out 0.3s;
+}

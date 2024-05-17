@@ -20,6 +20,7 @@ export class ModalPresentationSpectaclesComponent {
   public spectacle: any
   public photos: any[] = []
   public creation: any[] = []
+  public cadre: any[] = []
 
 
   ngOnInit() {
@@ -29,6 +30,9 @@ export class ModalPresentationSpectaclesComponent {
     }
     for (let c of this.spectacles[this.index].creation) {
       this.creation.push(c)
+    }
+    for (let ca of this.spectacles[this.index].cadre) {
+      this.cadre.push(ca)
     }
   }
 

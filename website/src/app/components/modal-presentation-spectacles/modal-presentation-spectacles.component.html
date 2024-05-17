@@ -1,18 +1,33 @@
 <ng-template #content let-modal>
-    <div>
+    <div class="wrapper">
         <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
         <div class="modal-body">
             <h1 class="text-center">
                 {{spectacle.titre}}
             </h1>
+            <div class="trait70percent"></div>
+            <p *ngFor="let ca of cadre" class="text-center">{{ca}}</p>
+            <div class="trait70percent"></div>
             <p *ngFor=" let context of creation" class="text-center">{{context}}</p>
-            <p>{{spectacle.cadre}}</p>
+            <div class="trait70percent"></div>
             <p>{{spectacle.resume}}</p>
             <div *ngFor="let img of photos" class="image">
                 <div class="wrapper-image">
                     <img [src]="img" alt="photo spectacle">
                 </div>
             </div>
+            <div class="trait70percent"></div>
+            <h6 class="text-center">
+                Voir nos prochaines dates :
+            </h6>
+            <a href="/agenda">
+                <button class="btn btn-dark" (click)="modal.dismiss('Cross click')">
+                    <div id="wrapper-btn">
+                        <div id="fleche">-></div>
+                        <div id="agenda">agenda</div>
+                    </div>
+                </button>
+            </a>
         </div>
     </div>
 </ng-template>
