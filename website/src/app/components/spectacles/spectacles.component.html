@@ -11,10 +11,10 @@
             <div class="image">
                 <img [src]="spectacle.photo_principale" alt="photo spectacle" class="card">
             </div>
-            <h4 class="text-center">{{spectacle.titre}}</h4>
-
-            <app-modal-presentation-spectacles [spectacles]="spectacles"
-                [index]="i"></app-modal-presentation-spectacles>
+            <div class="description">
+                <app-modal-presentation-spectacles [spectacles]="spectacles"
+                    [index]="i"></app-modal-presentation-spectacles>
+            </div>
         </div>
     </div>
 </div>
