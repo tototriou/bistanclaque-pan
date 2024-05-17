@@ -1,13 +1,13 @@
 import { Component, inject, Input, TemplateRef, ViewEncapsulation } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { NgFor, NgStyle } from '@angular/common';
+import { NgFor, NgIf, NgStyle } from '@angular/common';
 
 @Component({
   selector: 'app-modal-presentation-spectacles',
   templateUrl: './modal-presentation-spectacles.component.html',
   styleUrl: './modal-presentation-spectacles.component.scss',
   encapsulation: ViewEncapsulation.None,
-  imports: [NgStyle, NgFor],
+  imports: [NgStyle, NgFor, NgIf],
   standalone: true,
 
 })
