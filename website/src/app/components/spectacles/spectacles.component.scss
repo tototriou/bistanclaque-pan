@@ -13,10 +13,11 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
+        width: 70%;
 
         .card {
             display: flex;
-            width: 20em;
+            width: 25em;
             margin: 5px;
             --bs-card-border-radius: var(--bs-border-radius);
 
