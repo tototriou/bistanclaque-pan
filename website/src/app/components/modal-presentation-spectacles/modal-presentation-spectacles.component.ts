@@ -1,13 +1,14 @@
 import { Component, inject, Input, TemplateRef, ViewEncapsulation } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { NgFor, NgIf, NgStyle } from '@angular/common';
+import { CarouselComponent } from '../carousel/carousel.component';
 
 @Component({
   selector: 'app-modal-presentation-spectacles',
   templateUrl: './modal-presentation-spectacles.component.html',
   styleUrl: './modal-presentation-spectacles.component.scss',
   encapsulation: ViewEncapsulation.None,
-  imports: [NgStyle, NgFor, NgIf],
+  imports: [NgStyle, NgFor, NgIf, CarouselComponent],
   standalone: true,
 
 })
@@ -21,6 +22,8 @@ export class ModalPresentationSpectaclesComponent {
   public photos: any[] = []
   public creation: any[] = []
   public cadre: any[] = []
+  public imgCarousel: any
+  public indexPhotos: number = 0
 
 
   ngOnInit() {
@@ -34,10 +37,25 @@ export class ModalPresentationSpectaclesComponent {
     for (let ca of this.spectacles[this.index].cadre) {
       this.cadre.push(ca)
     }
+    this.imgCarousel = this.photos[0]
+
   }
 
   openVerticallyCentered(content: TemplateRef<any>) {
     this.modalService.open(content, { centered: true, keyboard: true, size: 'xl' });
+  }
+
+  nextImage() {
+    if (this.indexPhotos < this.photos.length - 1) {
+      this.imgCarousel = this.photos[this.indexPhotos + 1]
+      this.indexPhotos += 1
+    }
+  }
+  previousImage() {
+    if (this.indexPhotos > 0) {
+      this.imgCarousel = this.photos[this.indexPhotos - 1]
+      this.indexPhotos -= 1
+    }
   }
 }
 

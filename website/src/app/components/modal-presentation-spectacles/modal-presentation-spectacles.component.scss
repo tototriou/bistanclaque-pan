@@ -23,14 +23,38 @@
 
 .wrapper-image {
     display: flex;
-    width: 100px;
-    height: 100px;
+    flex-direction: row;
+    width: 100%;
     align-items: center;
     justify-content: center;
 
+    .previous {
+        display: flex;
+        height: 10vh;
+        cursor: pointer;
+        transition: all ease-in-out 0.2s;
+    }
+
+    .next {
+        display: flex;
+        height: 10vh;
+        cursor: pointer;
+        transition: all ease-in-out 0.2s;
+    }
+
+    .next:hover {
+        scale: 1.1;
+        transition: all ease-in-out 0.2s;
+    }
+
+    .previous:hover {
+        scale: 1.1;
+        transition: all ease-in-out 0.2s;
+    }
+
     img {
         display: flex;
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 }

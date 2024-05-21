@@ -19,10 +19,13 @@
             <div class="trait70percent"></div>
             <p class="text-justify">{{spectacle.resume}}</p>
 
-
-            <div *ngFor="let img of photos" class="image">
-                <div class="wrapper-image">
-                    <img [src]="img" alt="photo spectacle">
+            <div class="wrapper-image">
+                <div class="previous" (click)="previousImage()">
+                    <img src="../../../assets/icon/chevron-compact-left.svg" alt="">
+                </div>
+                <img [src]="imgCarousel" alt="photo spectacle">
+                <div class="next" (click)="nextImage()">
+                    <img src="../../../assets/icon/chevron-compact-right.svg" alt="">
                 </div>
             </div>
 
