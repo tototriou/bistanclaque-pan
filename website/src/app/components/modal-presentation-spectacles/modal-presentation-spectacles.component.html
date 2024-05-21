@@ -8,21 +8,25 @@
             <p id="sous-titre"><em>{{spectacle.sous_titre}}</em></p>
             <div class="trait70percent"></div>
             <div *ngFor="let ca of cadre;let i=index" class="context text-center">
-                <h6 *ngIf="i%2==0">{{ca}}</h6>
-                <em *ngIf="i%2==1">{{ca}}</em>
+                <h6 *ngIf="i%2==1">{{ca}}</h6>
+                <em *ngIf="i%2==0">{{ca}}</em>
             </div>
             <div class="trait70percent"></div>
             <div *ngFor=" let context of creation; let i=index" class="context text-center">
-                <h6 *ngIf="i%2==0">{{context}}</h6>
-                <em *ngIf="i%2==1">{{context}}</em>
+                <h6 *ngIf="i%2==1">{{context}}</h6>
+                <em *ngIf="i%2==0">{{context}}</em>
             </div>
             <div class="trait70percent"></div>
             <p>{{spectacle.resume}}</p>
+
+
             <div *ngFor="let img of photos" class="image">
                 <div class="wrapper-image">
                     <img [src]="img" alt="photo spectacle">
                 </div>
             </div>
+
+
             <div class="trait70percent"></div>
             <h6 class="text-center">
                 Voir nos prochaines dates :
