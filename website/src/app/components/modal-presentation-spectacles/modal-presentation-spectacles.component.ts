@@ -1,4 +1,4 @@
-import { Component, inject, Input, TemplateRef, ViewEncapsulation } from '@angular/core';
+import { Component, inject, Input, OnInit, TemplateRef, ViewEncapsulation } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { NgFor, NgIf, NgStyle } from '@angular/common';
 import { CarouselComponent } from '../carousel/carousel.component';
@@ -12,7 +12,7 @@ import { CarouselComponent } from '../carousel/carousel.component';
   standalone: true,
 
 })
-export class ModalPresentationSpectaclesComponent {
+export class ModalPresentationSpectaclesComponent implements OnInit {
   private modalService = inject(NgbModal);
 
   @Input() spectacles: any[] = []
@@ -37,7 +37,8 @@ export class ModalPresentationSpectaclesComponent {
     for (let ca of this.spectacles[this.index].cadre) {
       this.cadre.push(ca)
     }
-    this.imgCarousel = this.photos[0]
+    this.indexPhotos = 0
+    this.imgCarousel = this.photos[this.indexPhotos]
 
   }
 
