@@ -12,8 +12,6 @@
             "creation": [
                 "Mise en scène",
                 "Sidonie VIlas Boas",
-
-
                 "Assistanat à la mise en scène",
                 "Romain Triouleyre",
                 "Jeu",
@@ -36,12 +34,13 @@
         },
         {
             "titre": "SOL()",
+            "sous_titre": "Création 2023",
             "cadre": [
-                "création 2023",
                 "-Production-",
                 "Conservatoire de Lyon",
                 "-soutien-",
                 "Théâtre de l'Elysée - scène émergente de Lyon",
+                "",
                 "L'assemblée, fabrique artistique - Théâtre de Lyon"
             ],
             "creation": [
@@ -60,8 +59,8 @@
         },
         {
             "titre": "JULIET",
+            "sous_titre": "Création 2024",
             "cadre": [
-                "Création 2024",
                 "-production-",
                 "Conservatoire de Lyon",
                 "-soutien-",
