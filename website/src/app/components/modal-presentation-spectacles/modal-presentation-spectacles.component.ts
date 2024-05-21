@@ -37,7 +37,7 @@ export class ModalPresentationSpectaclesComponent {
   }
 
   openVerticallyCentered(content: TemplateRef<any>) {
-    this.modalService.open(content, { centered: true, });
+    this.modalService.open(content, { centered: true, keyboard: true, size: 'xl' });
   }
 }
 

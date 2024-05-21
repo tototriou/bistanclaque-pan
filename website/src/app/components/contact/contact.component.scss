@@ -81,3 +81,18 @@
         height: 100%;
     }
 }
+
+
+.facebook:hover img,
+.instagram:hover img,
+.mail a:hover img {
+    scale: 1.1;
+    transition: all 0.2s ease-in-out;
+}
+
+.facebook:not(:hover) img,
+.instagram:not(:hover) img,
+.mail:not(:hover) img {
+    scale: 1;
+    transition: all 0.2s ease-in-out;
+}
