@@ -54,7 +54,7 @@
 
     img {
         display: flex;
-        width: 90%;
+        width: 80%;
         height: auto;
     }
 }
@@ -121,4 +121,43 @@
 #sous-titre {
     margin: 0;
     font-weight: 100;
+}
+
+.footer-spectacle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .agenda-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+        padding: 0 25px;
+    }
+
+    .dossier-comp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        padding: 0 25px;
+
+
+        #download {
+            cursor: pointer;
+            transition: 0.2s all ease-in-out;
+        }
+
+        h6 {
+            margin: 0;
+        }
+    }
+}
+
+#download:hover {
+    scale: 1.1;
+
 }

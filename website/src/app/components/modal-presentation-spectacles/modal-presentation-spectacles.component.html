@@ -17,7 +17,8 @@
                 <em *ngIf="i%2==0">{{context}}</em>
             </div>
             <div class="trait70percent"></div>
-            <p class="text-justify">{{spectacle.resume}}</p>
+            <h6 class="text-center"><em>Résumé</em></h6>
+            <p class="text-justify mx-3 mb-5">{{spectacle.resume}}</p>
 
             <div class="wrapper-image">
                 <div class="previous" (click)="previousImage()">
@@ -31,17 +32,34 @@
 
 
             <div class="trait70percent"></div>
-            <h6 class="text-center">
-                Voir nos prochaines dates :
-            </h6>
-            <a href="/agenda">
-                <button class="btn btn-dark" (click)="modal.dismiss('Cross click')">
-                    <div id="wrapper-btn">
-                        <div id="fleche">-></div>
-                        <div id="agenda">agenda</div>
+            <div class="footer-spectacle">
+                <div class="agenda-link">
+
+                    <h6 class="text-center">
+                        Voir nos prochaines dates :
+                    </h6>
+                    <a href="/agenda">
+                        <button class="btn btn-dark" (click)="modal.dismiss('Cross click')">
+                            <div id="wrapper-btn">
+                                <div id="fleche">-></div>
+                                <div id="agenda">agenda</div>
+                            </div>
+                        </button>
+                    </a>
+                </div>
+                <div class="dossier-comp">
+                    <h6 class="text-center">
+                        Dossier spectacle :
+                    </h6>
+                    <div id="download">
+                        <a [href]="spectacle.dossier_url" target="_blank">
+
+                            <img src="../../../assets/icon/download.svg" alt="download button">
+                        </a>
                     </div>
-                </button>
-            </a>
+                </div>
+
+            </div>
         </div>
     </div>
 </ng-template>
