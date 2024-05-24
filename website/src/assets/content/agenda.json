@@ -6,14 +6,21 @@
             {
 
                 "date": "14 au 17 Août",
-                "lieu": "FESTIVAL D'AURILLAC",
-                "photo_url": "assets/images/compagnie/images/affiche-aurillac2.jpeg"
+                "lieu": "CHIMERES - festival d'Aurillac",
+                "photo_url": "assets/images/compagnie/images/affiche-chimeres-aurillac.png"
+
+            },
+            {
+
+                "date": "24 et 25 Mai",
+                "lieu": "JULIET - Théâtre de L'Elysée, Lyon",
+                "photo_url": "assets/images/compagnie/images/affiche-juliet.png"
 
             },
             {
                 "date": "10 Mars",
-                "lieu": "FESTIVAL MEUF MARS - paris",
-                "photo_url": "assets/images/compagnie/images/photo-montmartre.png"
+                "lieu": "CHIMERES - festival du meuf mars, Paris",
+                "photo_url": "assets/images/compagnie/images/affiche-chimeres2.png"
                
             }
         ]
@@ -23,8 +30,8 @@
         "spectacles": [
             {
                 "date": "4 et 5 Novembre",
-                "lieu": "CNSAD - paris",
-                "photo_url":"assets/images/compagnie/images/photo-cnsad.jpeg"
+                "lieu": "CHIMERES - CNSAD, Paris",
+                "photo_url":"assets/images/compagnie/images/chimeres-affiche.png"
             }
         ]
     }

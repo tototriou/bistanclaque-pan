@@ -55,9 +55,14 @@
             ],
             "resume": "ceci est un résumé ",
             "photos": [
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png"
+                "assets/images/compagnie/images/sol()1.jpg",
+                "assets/images/compagnie/images/sol()2.jpg",
+                "assets/images/compagnie/images/sol()3.jpg",
+                "assets/images/compagnie/images/sol()4.jpg",
+                "assets/images/compagnie/images/sol()5.jpg",
+                "assets/images/compagnie/images/sol()6.jpg",
+                "assets/images/compagnie/images/sol()7.jpg",
+                "assets/images/compagnie/images/sol()8.jpg"
             ],
             "dossier_url": "assets/images/compagnie/cv/dossier-chimères.pdf",
             "photo_principale": "assets/images/compagnie/images/affiche-sol().png",
@@ -75,19 +80,17 @@
             ],
             "creation": [
                 "Mise en scène",
-                "Collective",
+                "Romain Triouleyre, Ambroise Ract Madoux, Piero Hernandez",
                 "Jeu",
-                "Felix Fournier, Piero Hernandez, Ambroise Ract Madoux, Romain Triouleyre, Adrien Vignes, Wiktor Vallet",
+                "Felix Fournier, Piero Hernandez, Ambroise Ract Madoux, Romain Triouleyre, Adrien Vignes",
                 "Musique",
                 "Hugo Wurbel",
                 "Masques",
                 "Rachel Leca"
             ],
-            "resume": "assets/images/compagnie/images/logo-home-page.png",
+            "resume": "Et si Juliette était absente ? Et si Roméo s'était inventé toute son histoire d'amour avec Juliette ? Nous proposons une relecture particulière et contemporaine de la pièce iconique de Shakespeare. Nous désaxons l'histoire à l'eau de rose d'un amour politiquement impossible, pour mettre en lumière le désespoir d'un homme pris dans un tourbillon de violence. Dans un environnement testostéroné où les gangs s’entretuent, où les fêtes sont de plus en plus décadentes, où les rivalités ont perdu de leurs sens, une échappatoire apparaît : fantasmer une histoire érotomane avec une capulet.",
             "photos": [
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png",
-                "assets/images/compagnie/images/logo-home-page.png"
+                "assets/images/compagnie/images/affiche-juliet.png"
             ],
             "dossier_url": "assets/images/compagnie/cv/dossier-chimères.pdf",
             "photo_principale": "assets/images/compagnie/images/affiche-juliet.png",
