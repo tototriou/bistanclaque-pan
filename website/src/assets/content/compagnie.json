@@ -7,12 +7,10 @@
             "photo_url": "assets/images/compagnie/images/pp-romain.jpg",
             "spectacles": [
                 "JULIET - 2024",
-                "jeu et mise en scène",
-                "SOL() - 2023",
-                "metteur en scène"
+                "jeu et mise en scène"
             ],
             "cv_url": "assets/images/compagnie/cv/cv-romain.pdf",
-            "biographie": "Originaire d’Aurillac, Romain Triouleyre grandit bercé par le festival de rue qui plantera ses racines théâtrales. En 2020, après un Bac Scientifique, il entre au Conservatoire de Théâtre à Lyon où il développera un goût pour l’écriture et la mise en scène. Le conservatoire l’emmène à travailler sous la direction de Céline Champinot à l’ENSATT, François Rancillac au théâtre du point du jour, Sandrine Lanno au théâtre du Point du jour, Magali Bonat au théâtre des Célestins, Philippe Sire, Laurent Ziseramn ou encore Stéphane Auvray-Noroy. En 2023, il écrit et mets en scène SOL() dans le cadre de son diplôme de fin d’étude au conservatoire."
+            "biographie": "Auriginaire d'Aurillac, il grandit bercé par le théâtre de rue. Il entre en 2020 au Conservatoire dramatique de Lyon où il monte en 2024 la compagnie Bistanclaque-Pan avec Sidonie Vilas Boas. Il l’assiste en 2023 sur la mise en scène de « Chimères ». La même année, il écrit et met en scène « SOL() », un cabaret pour trois personnages. En 2024, il co-met en scène et joue dans JULIET, une relecture de la pièce iconique de Shakespeare. Dans le cadre de sa formation, il est amené à jouer sous la direction de François Rancillac, Céline Champinot, Sandrine Lanno, Stéphane Auvray-Nauroy, Laurent Ziserman, Magali Bonat et Philippe Sire. "
         },
         {
             "prenom": "Sidonie",
@@ -109,6 +107,66 @@
             ],
             "cv_url": "assets/images/compagnie/cv/romain-triouleyre.pdf",
             "biographie": "Elle débute ses études prépa littéraire au Lycée Henri IV avant d’intégrer en 2019 l’ENS spécialité théâtre à Paris. Elle obtient un master recherche-création à l’université Sorbonne-Nouvelle (Paris III). A la fois au conservatoire de théâtre du 5e et en danse classique au conservatoire du 6e, elle poursuit ensuite sa formation théâtrale au CNSAD où elle entre en 2022."
+        },
+        {
+            "prenom": "Ambroise",
+            "nom": "Ract Madoux",
+            "role": "comédien",
+            "photo_url": "assets/images/compagnie/images/photo-juliet22.jpg",
+            "spectacles": [
+                "JULIET - 2024",
+                "Jeu et mise en scène"
+            ],
+            "cv_url": "assets/images/compagnie/cv/romain-triouleyre.pdf",
+            "biographie": "Il se forme au Conservatoire de Lyon où il rencontre Romain Triouleyre et Piero Henandez. Il y joue sous la direction de François Rancillac, Stéphane Auvray-Nauroy, Laurent Ziserman, Magali Bonat et Philippe Sire. Il tend vers une recherche d’un théâtre investi et corporel s’inspirant de spectacles comme ceux du Munstrum Théâtre."
+        },
+        {
+            "prenom": "Piero",
+            "nom": "Hernandez",
+            "role": "comédien",
+            "photo_url": "assets/images/compagnie/images/photo-juliet17.jpg",
+            "spectacles": [
+                "JULIET - 2024",
+                "jeu et mise en scène"
+            ],
+            "cv_url": "assets/images/compagnie/cv/romain-triouleyre.pdf",
+            "biographie": "Il suit sa formation au conservatoire de Lyon en parallèle d’une licence d’arts du spectacle à Lyon II. Il joue à la télé dans le téléfilm « Noir comme Neige » et dans plusieurs courts métrages produits par la Cinéfabrique. Passionné de sport, il pratique le tennis de table pendant 12 années, du foot, du volley… Cette physicalité se ressent dans un jeu qu’il cherche dynamique et engagé."
+        },
+        {
+            "prenom": "Adrien",
+            "nom": "Vignes",
+            "role": "comédien",
+            "photo_url": "assets/images/compagnie/images/photo-juliet8.jpg",
+            "spectacles": [
+                "JULIET - 2024",
+                "Comédien"
+            ],
+            "cv_url": "assets/images/compagnie/cv/romain-triouleyre.pdf",
+            "biographie": "Il commence sa formation théâtrale au Conservatoire de Montpellier puis les poursuit au Conservatoire de Lyon en 2023. Il fait une reprise de rôle en 2022 dans le spectacle L’Humanité était mon horizon et joue dans l’Opéra comique Le Docteur Sangrado et Le Medecin de l’Amour de Gabrielle Ordas. Il collabore également avec les compagnies « Bleu Nuit » dans La Lune des Pauvres, la cie « Feux de Brouillard » dans une réécriture du petit prince et la cie « Blue Velvet » dans une mise en scène d’Après la fin de Dennis Kelly."
+        },
+        {
+            "prenom": "Felix",
+            "nom": "Fournier",
+            "role": "comédien",
+            "photo_url": "assets/images/compagnie/images/photo-juliet6.jpg",
+            "spectacles": [
+                "JULIET - 2024",
+                "Jeu et mise en scène"
+            ],
+            "cv_url": "assets/images/compagnie/cv/romain-triouleyre.pdf",
+            "biographie": "Il découvre le théâtre grâce à l’improvisation. Après une licence de biotechnologie, il suit une formation d’art dramatique aux conservatoires du 18ème et du 14ème arrondissement de Paris. Il intègre ensuite le CRR de Lyon. En 2020, il crée Le Groupe, collectif de création audiovisuelle, et participe à plusieurs courts-métrages. En 2022, il joue dans le spectacle Les Yeux Grands Ouvers produit par Artéfac et mis en scène par Camila Brunet et Adèle Abonneau ainsi que dans Contemplations d’un mutant mis en scène par Anne-Laure Naar et destiné au jeune public."
+        },
+        {
+            "prenom": "Hugo",
+            "nom": "Wurbel",
+            "role": "compositeur, producteur",
+            "photo_url": "assets/images/compagnie/images/pp-hugo.png",
+            "spectacles": [
+                "JULIET - 2024",
+                "composition musicale et régie son"
+            ],
+            "cv_url": "assets/images/compagnie/cv/romain-triouleyre.pdf",
+            "biographie": "Après avoir commencé la trompette à 9 ans et découvert la composition à travers la M.A.O, il obtient sa licence au Conservatoire d’Aix-en-Provence en harmonie et contrepoint, écriture et composition, composition contemporaine, solfège et culture. Actuellement en Master Musique appliqués aux Arts Visuels au Conservatoire de Lyon, il mêle dans ses compositions musique écrite sur partition et programmation d’instruments virtuels.   Après avoir commencé la trompette à 9 ans et découvert la composition à travers la M.A.O, il obtient sa licence au Conservatoire d’Aix-en-Provence en harmonie et contrepoint, écriture et composition, composition contemporaine, solfège et culture. Actuellement en Master Musique appliqués aux Arts Visuels au Conservatoire de Lyon, il mêle dans ses compositions musique écrite sur partition et programmation d’instruments virtuels."
         }
     ]
 }

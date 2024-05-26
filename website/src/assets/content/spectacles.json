@@ -33,41 +33,7 @@
             "photo_principale": "assets/images/compagnie/images/chimeres-affiche.png",
             "biographie": "Photos : Henrique Vilas Boas"
         },
-        {
-            "titre": "SOL()",
-            
-            "sous_titre": "Création 2023",
-            "cadre": [
-                "-Production-",
-                "Conservatoire de Lyon",
-                "-soutien-",
-                "Théâtre de l'Elysée - scène émergente de Lyon",
-                "",
-                "L'assemblée, fabrique artistique - Théâtre de Lyon"
-            ],
-            "creation": [
-                "Texte et Mise en scène",
-                "Romain Triouleyre",
-                "Musique",
-                "Victor Breda",
-                "Jeu",
-                "Théo Thierry, Romain Triouleyre, Sahra Spaggiari"
-            ],
-            "resume": "Entre le cabaret et le drag show, ponctué par des musique de Philippe Katerine, trois figures évoluent et se dévoilent sur scène dans une langue absurde et acerbe. MADAME est une bourgeoise mégalomane tyrannique. MONSIEUR est semble-t-il son serviteur. QUELQU’UN est une figure androgyne, perdu sentimentalement. Quand la faucheuse lui rendra visite, MADAME cherchera par tous les moyens à se faire remplacer. MONSIEUR devra choisir entre exister ou fuir ses responsabilités. QUELQU’UN trouvera-t-il un peu d’apaisement dans son existence ?",
-            "photos": [
-                "assets/images/compagnie/images/sol()1.jpg",
-                "assets/images/compagnie/images/sol()2.jpg",
-                "assets/images/compagnie/images/sol()3.jpg",
-                "assets/images/compagnie/images/sol()4.jpg",
-                "assets/images/compagnie/images/sol()5.jpg",
-                "assets/images/compagnie/images/sol()6.jpg",
-                "assets/images/compagnie/images/sol()7.jpg",
-                "assets/images/compagnie/images/sol()8.jpg"
-            ],
-            "dossier_url": "assets/images/compagnie/cv/dossier-chimères.pdf",
-            "photo_principale": "assets/images/compagnie/images/affiche-sol().png",
-            "biographie": "Photos : Matthias Distefano"
-        },
+        
         {
             "titre": "JULIET",
            
@@ -112,7 +78,7 @@
                 "assets/images/compagnie/images/photo-juliet22.jpg",
                 "assets/images/compagnie/images/photo-juliet23.jpg"
             ],
-            "dossier_url": "assets/images/compagnie/cv/dossier-chimères.pdf",
+            "dossier_url": "assets/images/compagnie/cv/dossier-juliet.pdf",
             "photo_principale": "assets/images/compagnie/images/affiche-juliet.png",
             "biographie": "Photos : Cyril Masson"
         }
