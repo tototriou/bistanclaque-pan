@@ -29,6 +29,7 @@
                 "assets/images/compagnie/images/photo-chimères8.JPG",
                 "assets/images/compagnie/images/photo-chimères9.JPG"
             ],
+            "credit_photo": "Photos : Henrique Vilas Boas",
             "dossier_url": "assets/images/compagnie/cv/dossier-chimères.pdf",
             "photo_principale": "assets/images/compagnie/images/chimeres-affiche.png",
             "biographie": "Photos : Henrique Vilas Boas"
@@ -76,7 +77,7 @@
                 "assets/images/compagnie/images/photo-juliet22.jpg",
                 "assets/images/compagnie/images/photo-juliet23.jpg"
             ],
-            "credit_photo": "quelqu'un que je ne connais pas",
+            "credit_photo": "Photos : Cyril Masson",
             "dossier_url": "assets/images/compagnie/cv/dossier-juliet.pdf",
             "photo_principale": "assets/images/compagnie/images/affiche-juliet.png",
             "biographie": "Photos : Cyril Masson"
