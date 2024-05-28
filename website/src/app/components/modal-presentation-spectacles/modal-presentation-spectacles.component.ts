@@ -58,6 +58,20 @@ export class ModalPresentationSpectaclesComponent implements OnInit {
       this.indexPhotos -= 1
     }
   }
+
+  estDernier() {
+    if (this.indexPhotos === (this.photos.length - 1)) {
+      return { 'opacity': 0 }
+    }
+    return {}
+  }
+
+  estPremier() {
+    if (this.indexPhotos === 0) {
+      return { 'opacity': 0 }
+    }
+    return {}
+  }
 }
 
 

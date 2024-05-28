@@ -21,15 +21,17 @@
             <p class="text-justify mx-3 mb-5">{{spectacle.resume}}</p>
 
             <div class="wrapper-image">
-                <div class="previous" (click)="previousImage()">
+                <div class="previous" (click)="previousImage()" [ngStyle]="estPremier()">
                     <img src="../../../assets/icon/chevron-compact-left.svg" alt="">
                 </div>
                 <img [src]="imgCarousel" alt="photo spectacle">
-                <div class="next" (click)="nextImage()">
+                <div class="next" (click)="nextImage()" [ngStyle]="estDernier()">
                     <img src="../../../assets/icon/chevron-compact-right.svg" alt="">
                 </div>
             </div>
-
+            <div class="credit-photo">
+                <p>{{spectacle.credit_photo}}</p>
+            </div>
 
             <div class="trait70percent"></div>
             <div class="footer-spectacle">

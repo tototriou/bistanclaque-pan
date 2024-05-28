@@ -33,10 +33,8 @@
             "photo_principale": "assets/images/compagnie/images/chimeres-affiche.png",
             "biographie": "Photos : Henrique Vilas Boas"
         },
-        
         {
             "titre": "JULIET",
-           
             "sous_titre": "Création 2024",
             "cadre": [
                 "-production-",
@@ -78,6 +76,7 @@
                 "assets/images/compagnie/images/photo-juliet22.jpg",
                 "assets/images/compagnie/images/photo-juliet23.jpg"
             ],
+            "credit_photo": "quelqu'un que je ne connais pas",
             "dossier_url": "assets/images/compagnie/cv/dossier-juliet.pdf",
             "photo_principale": "assets/images/compagnie/images/affiche-juliet.png",
             "biographie": "Photos : Cyril Masson"
