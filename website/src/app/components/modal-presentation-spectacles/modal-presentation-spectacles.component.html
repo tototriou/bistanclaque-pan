@@ -2,7 +2,7 @@
     <div class="wrapper">
         <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
         <div class="modal-body">
-            <h1 class="text-center" id="titre-spectacle">
+            <h1 class="text-center" id="titre-spectacle" [ngStyle]="isJuliet()">
                 {{spectacle.titre}}
             </h1>
             <p id="sous-titre"><em>{{spectacle.sous_titre}}</em></p>

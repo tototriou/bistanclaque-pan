@@ -72,6 +72,13 @@ export class ModalPresentationSpectaclesComponent implements OnInit {
     }
     return {}
   }
+
+  isJuliet() {
+    if (this.spectacle.titre === "JULIET")
+      return { 'font-family': 'Gochi_Hand' }
+    return {}
+  }
+
 }
 
 
