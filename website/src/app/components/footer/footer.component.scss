@@ -17,4 +17,22 @@
     .designed-by {
         margin: 10px 0;
     }
+
+    #monPortfolio {
+        color: var(--bg-color-primary);
+        text-decoration: none;
+
+    }
+
+    #monPortfolio:hover {
+        color: aliceblue;
+    }
+
+    .copyright {
+        font-weight: 100;
+        color: rgba(211, 211, 211, 0.515);
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
 }

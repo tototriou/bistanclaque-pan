@@ -1,14 +1,14 @@
 import { Component, inject, Input, OnInit, TemplateRef, ViewEncapsulation } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { NgFor, NgIf, NgStyle } from '@angular/common';
-import { CarouselComponent } from '../carousel/carousel.component';
+import { YouTubePlayer, YOUTUBE_PLAYER_CONFIG } from '@angular/youtube-player';
 
 @Component({
   selector: 'app-modal-presentation-spectacles',
   templateUrl: './modal-presentation-spectacles.component.html',
   styleUrl: './modal-presentation-spectacles.component.scss',
   encapsulation: ViewEncapsulation.None,
-  imports: [NgStyle, NgFor, NgIf, CarouselComponent],
+  imports: [NgStyle, NgFor, NgIf, YouTubePlayer],
   standalone: true,
 
 })
@@ -79,6 +79,12 @@ export class ModalPresentationSpectaclesComponent implements OnInit {
     return {}
   }
 
+  hasYoutube() {
+    if (screen.width < 990) {
+      return false
+    }
+    return (this.spectacle.youtube_url != "")
+  }
 }
 
 

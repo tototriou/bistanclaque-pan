@@ -169,3 +169,14 @@
     scale: 1.1;
 
 }
+
+youtube-player {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+youtube-player-placeholder {
+    width: 80% !important;
+    background-size: cover;
+}

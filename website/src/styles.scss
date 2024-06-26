@@ -20,6 +20,10 @@
     src: url('./assets/fonts/Gochi_Hand/GochiHand-Regular.ttf') format('truetype');
 }
 
+html {
+    background-color: var(--bg-color-primary);
+}
+
 * {
     --bg-color-primary: #F2EDDB
 }
