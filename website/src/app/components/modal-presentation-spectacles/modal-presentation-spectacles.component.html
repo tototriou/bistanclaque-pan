@@ -27,11 +27,11 @@
 
             <div class="wrapper-image">
                 <div class="previous" (click)="previousImage()" [ngStyle]="estPremier()">
-                    <img src="../../../assets/icon/chevron-compact-left.svg" alt="">
+                    <img src="../../../assets/icon/chevron-compact-left.svg" alt="left arrow">
                 </div>
-                <img [src]="imgCarousel" alt="photo spectacle">
+                <img [src]="imgCarousel" alt="photo spectacle" loading="lazy" decoding="async">
                 <div class="next" (click)="nextImage()" [ngStyle]="estDernier()">
-                    <img src="../../../assets/icon/chevron-compact-right.svg" alt="">
+                    <img src="../../../assets/icon/chevron-compact-right.svg" alt="right arrow">
                 </div>
             </div>
             <div class="credit-photo">

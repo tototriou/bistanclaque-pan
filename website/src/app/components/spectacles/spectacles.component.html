@@ -9,7 +9,8 @@
     <div class="wrapper-card">
         <div *ngFor="let spectacle of spectacles; let i=index" class="card">
             <div class="image">
-                <img [src]="spectacle.photo_principale" alt="photo spectacle" class="card">
+                <img [src]="spectacle.photo_principale" alt="photo spectacle" class="card" loading="lazy"
+                    decoding="async" alt="image de la carte">
             </div>
             <div class="description">
                 <app-modal-presentation-spectacles [spectacles]="spectacles"
