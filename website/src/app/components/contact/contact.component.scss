@@ -5,6 +5,7 @@
     flex-direction: column;
     background-color: var(--bg-color-primary);
     min-height: 100vh;
+    height: fit-content;
     font-size: large;
     font-weight: 600;
 
@@ -35,6 +36,10 @@
         }
     }
 
+    .reseaux {
+        margin: 1em 0;
+    }
+
     .reseaux,
     .mail {
         display: flex;
@@ -57,7 +62,6 @@
 
     .footer {
         display: flex;
-        position: absolute;
         bottom: 0;
         font-weight: 100;
         font-size: small;
