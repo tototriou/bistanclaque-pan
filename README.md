@@ -1,2 +1,2 @@
 # Borboleta theatre
-site web officiel de la compagnie Bistanclaque-pan
+site web officiel de la compagnie Borboleta theatre
