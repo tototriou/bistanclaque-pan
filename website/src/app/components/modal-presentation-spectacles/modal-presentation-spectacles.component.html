@@ -5,8 +5,11 @@
             <h1 class="text-center" id="titre-spectacle" [ngStyle]="isJuliet()">
                 {{spectacle.titre}}
             </h1>
+
             <p id="sous-titre"><em>{{spectacle.sous_titre}}</em></p>
+
             <div class="trait70percent"></div>
+            
             <!-- ajouter la vidéo -->
             <youtube-player [videoId]="spectacle.youtube_url" placeholderButtonLabel="Afspil video" *ngIf="hasYoutube()"
                 width="80%" />
